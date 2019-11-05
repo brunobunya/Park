@@ -20,19 +20,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnListar.setOnClickListener(this);
         btnSair.setOnClickListener(this);
     }
-
+//tela principal
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnInserir:
+            case R.id.btnInserir: //botao inserir que redireciona para a tela de cadastro
                 Intent insert = new Intent(getApplicationContext(), InserirActivity.class);
                 startActivity(insert);
                 break;
-            case R.id.btnListar:
+            case R.id.btnListar: //botao listar que redireciona para a tela de lista de cadastrados
                 Intent list = new Intent(getApplicationContext(), ListarActivity.class);
                 startActivity(list);
                 break;
-            case R.id.btnSair:
+            case R.id.btnSair: //botao fecha a aplicação
                 finishAffinity();
                 break;
         }

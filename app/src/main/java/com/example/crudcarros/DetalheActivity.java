@@ -40,7 +40,7 @@ public class DetalheActivity extends AppCompatActivity implements View.OnClickLi
         btnExcluir = (Button) findViewById(R.id.btnExcluir);
         btnExcluir.setOnClickListener(this);
     }
-
+//mostra os dados do carro clicado na listagem geral, e disponibilizar as opções de editar e excluir (mas nao pode ser alterado o id)
     @Override
     public void onClick(View v) {
         switch(v.getId()){

@@ -43,6 +43,7 @@ public class EditarActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     @Override
+    //edita o carro cujo o id foi anteriormente buscado
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnSalvar:
