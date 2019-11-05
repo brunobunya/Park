@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/lblDetailIDCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID do Carro: "
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/lblDetailNomeCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Carro: "
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/lblDetailModeloCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modelo do Carro: "
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/lblDetailPlacaCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Placa do Carro: "
+        android:textSize="10pt"/>
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir"/>
+</LinearLayout>

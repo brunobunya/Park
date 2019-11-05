@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CrudCarros</string>
+    <string name="insert_screen_title">Cadastro de Carro</string>
+    <string name="home_screen_title">CRUD de Carros</string>
+    <string name="detail_screen_title">Detalhes do Carro</string>
+    <string name="list_screen_title">Listagem dos Carros</string>
+</resources>
